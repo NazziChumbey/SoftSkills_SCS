@@ -38,3 +38,48 @@ header > h2
 
     color: #333f89;
 }
+
+nav.pages
+{
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 200px;
+
+    background: #c8d9fd;
+}
+
+nav.pages > a
+{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+
+    display: inline-block;
+
+    height: 70px;
+    margin: 0 30px;
+
+    transition: transform 1s;
+    vertical-align: top;
+    text-decoration: none;
+
+    opacity: .5;
+    color: #333f89;
+}
+
+nav.pages > a:nth-child(3)
+{
+    width: 58px;
+    height: 58px;
+    margin-top: 7px;
+
+    background: url(../img/logo_nav.png);
+}
+
+nav.pages > a:hover
+{
+    transform: scale(1.2);
+
+    opacity: 1;
+    color: #333f89;
+}
