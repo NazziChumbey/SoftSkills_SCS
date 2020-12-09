@@ -147,7 +147,7 @@ footer
 
 .footer-nav{
     display: inline-block;
-    width: 220px;
+    width: 250px;
     line-height: 1.5;
     padding-right: 0px;
     position: absolute;
@@ -157,7 +157,7 @@ footer
 
 .footer_link {
     font-weight: bold;
-    font-size: 21px;
+    font-size: 22px;
     text-decoration: none;
     float: left;
     text-align: justify;
