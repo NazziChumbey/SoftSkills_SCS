@@ -1,0 +1,66 @@
+.nav_pages > a:nth-child(1)
+{
+    font-size: 28px;
+
+    opacity: 1;
+}
+
+.nav_footer a:nth-child(1)
+{
+    position: relative;
+    font-size: 28px;
+    right: 20px;
+    top: 15px;
+    opacity: 1;
+}
+
+.main
+{
+    width: 100%;
+}
+
+.main  img
+{
+    display: inline-block;
+
+    margin: 20px;
+
+    vertical-align: top;
+}
+
+.main  div
+{
+    font-size: 16px;
+    line-height: 26px;
+
+    display: inline-block;
+
+    width: 610px;
+    height: 365px;
+    margin: 20px;
+    padding: 40px;
+
+    text-indent: 20px;
+
+    color: white;
+    border-radius: 15px;
+}
+.main h3
+{
+    font-size: 24px;
+
+    margin: 20px 0;
+}
+
+.goal
+{
+    background: #4970e7;
+}
+.relevance
+{
+    background: #fd7462;
+}
+.technology
+{
+    background: #9cddbb;
+}

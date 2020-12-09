@@ -29,7 +29,8 @@ header > h1
 
     margin-top: 100px;
 
-    color: #4a6fe7;
+    color: #6A8DFDFF;
+    font-weight: bold;
 }
 
 header > h2
@@ -83,3 +84,91 @@ nav.pages > a:hover
     opacity: 1;
     color: #333f89;
 }
+
+footer
+{
+    width: 100%;
+    height: 100px;
+    padding: 30px 100px;
+    background: #c8d9fd;
+    position: relative;
+}
+
+.footer-socials{
+    float: left;
+}
+
+.socials-link
+{
+    margin-left: 22px;
+    text-decoration: none;
+}
+
+.socials-img{
+
+}
+
+
+.footer-center-section{
+    display: inline-block;
+    width: 280px;
+    margin: -10px 40px 0px 150px;
+}
+
+.footer-logo__link{
+
+}
+
+.footer-logo{
+    float: left;
+    width: 58px;
+    height: 58px;
+    margin-right: 15px;
+}
+
+.footer-center-section > span {
+    display: inline-block;
+    line-height: 0.8;
+    margin-top: 15px;
+}
+
+.footer-title{
+   font-size: 34px;
+   color: #3B71E8FF;
+   font-weight: bold;
+}
+
+.footer-subtitle{
+    font-size: 14px;
+    color: #333f89;
+    top: 15px;
+}
+
+
+.footer-nav{
+    display: inline-block;
+    width: 220px;
+    line-height: 1.5;
+    padding-right: 0px;
+    position: absolute;
+    right: 70px;
+    bottom: 15px;
+}
+
+.footer_link {
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    float: left;
+    text-align: justify;
+    width: 50%;
+    opacity: 0.5;
+    color: #3B71E8;
+}
+
+.is-active {
+    opacity: 1;
+    color: #3B71E8;
+}
+
+
